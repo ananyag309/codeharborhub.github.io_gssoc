@@ -9,6 +9,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "deploy-gh-pages": "gh-pages -d build",
+    "build:fast": "docusaurus build --no-minify",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -41,7 +42,8 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "axios": "^1.7.2",
-    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "docusaurus2-dotenv": "^1.4.0",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
@@ -76,8 +78,11 @@
     "@babel/preset-react": "^7.24.7",
     "@docusaurus/module-type-aliases": "^3.3.2",
     "@docusaurus/types": "^3.3.2",
+    "@types/node": "^20.14.10",
+    "@types/react-icons": "^3.0.0",
     "dotenv": "^16.4.5",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "lighthouse": "^12.1.0"
   },
   "browserslist": {
     "production": [
